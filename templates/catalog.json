@@ -1,0 +1,1709 @@
+[
+  {
+    "template_id": "AIE-01",
+    "title": "Evaluation spec",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/eval-spec.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Test plan",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-02",
+    "title": "Tool contract",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/tool-contract.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer",
+      "context-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "API reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-03",
+    "title": "RAG pipeline spec",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/rag-pipeline.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Technical design document",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-04",
+    "title": "Agent runbook",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/agent-runbook.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Runbook",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-05",
+    "title": "Quality, latency, and cost card",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/quality-latency-cost.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Service level objectives",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-06",
+    "title": "Prompt and instruction spec",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/prompt-and-instruction-spec.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer",
+      "context-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Configuration reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-07",
+    "title": "Model change note",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/model-change-note.md",
+    "doc_type": "decision",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Change request",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-08",
+    "title": "Guardrail spec",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/guardrail-spec.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer",
+      "context-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Validation rules",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-09",
+    "title": "Dataset card",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/dataset-card.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Data dictionary",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AIE-10",
+    "title": "AI incident review",
+    "set": "ai-engineers",
+    "path": "ai-engineers/templates/ai-incident-review.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "ai-engineer",
+      "technical-writer",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Postmortem",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AUD-01",
+    "title": "End user guide",
+    "set": "audience-guides",
+    "path": "templates/audience-guides/end-user-guide.md",
+    "doc_type": "how-to",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "User guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AUD-02",
+    "title": "Admin guide",
+    "set": "audience-guides",
+    "path": "templates/audience-guides/admin-guide.md",
+    "doc_type": "how-to",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Admin guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AUD-03",
+    "title": "Developer guide",
+    "set": "audience-guides",
+    "path": "templates/audience-guides/developer-guide.md",
+    "doc_type": "how-to",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Developer guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-01",
+    "title": "Project README",
+    "set": "classic",
+    "path": "templates/classic/project-readme.md",
+    "doc_type": "overview",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "internal-engineer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "README",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-02",
+    "title": "Technical overview",
+    "set": "classic",
+    "path": "templates/classic/technical-overview.md",
+    "doc_type": "overview",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Technical overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-03",
+    "title": "Architecture overview",
+    "set": "classic",
+    "path": "templates/classic/architecture-overview.md",
+    "doc_type": "concept",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "internal-engineer",
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture document",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-04",
+    "title": "Data model and ERD",
+    "set": "classic",
+    "path": "templates/classic/data-model-erd.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "internal-engineer",
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Entity relationship diagram",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-05",
+    "title": "API overview",
+    "set": "classic",
+    "path": "templates/classic/api-overview.md",
+    "doc_type": "overview",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "API overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-06",
+    "title": "API endpoint reference",
+    "set": "classic",
+    "path": "templates/classic/api-endpoint-reference.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "API reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-07",
+    "title": "API errors",
+    "set": "classic",
+    "path": "templates/classic/api-errors.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Error code reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-08",
+    "title": "Authentication",
+    "set": "classic",
+    "path": "templates/classic/authentication.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Authentication guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-09",
+    "title": "SDK quick start",
+    "set": "classic",
+    "path": "templates/classic/sdk-quickstart.md",
+    "doc_type": "tutorial",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "developer-advocate",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "SDK quick start",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-10",
+    "title": "SDK reference",
+    "set": "classic",
+    "path": "templates/classic/sdk-reference.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "SDK reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-11",
+    "title": "CLI reference",
+    "set": "classic",
+    "path": "templates/classic/cli-reference.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "CLI reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-12",
+    "title": "Tutorial",
+    "set": "classic",
+    "path": "templates/classic/tutorial.md",
+    "doc_type": "tutorial",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Tutorial",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-13",
+    "title": "How-to guide",
+    "set": "classic",
+    "path": "templates/classic/how-to.md",
+    "doc_type": "how-to",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "How-to guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-14",
+    "title": "Concept",
+    "set": "classic",
+    "path": "templates/classic/concept.md",
+    "doc_type": "concept",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Concept page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-15",
+    "title": "Troubleshooting",
+    "set": "classic",
+    "path": "templates/classic/troubleshooting.md",
+    "doc_type": "how-to",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Troubleshooting guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-16",
+    "title": "Release notes",
+    "set": "classic",
+    "path": "templates/classic/release-notes.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Release notes",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-17",
+    "title": "Migration guide",
+    "set": "classic",
+    "path": "templates/classic/migration-guide.md",
+    "doc_type": "how-to",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Migration guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-18",
+    "title": "Architecture decision record",
+    "set": "classic",
+    "path": "templates/classic/adr.md",
+    "doc_type": "decision",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "internal-engineer",
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture decision record",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-19",
+    "title": "Runbook",
+    "set": "classic",
+    "path": "templates/classic/runbook.md",
+    "doc_type": "operational",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "internal-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Runbook",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-20",
+    "title": "Onboarding guide",
+    "set": "classic",
+    "path": "templates/classic/onboarding-guide.md",
+    "doc_type": "tutorial",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "internal-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Onboarding guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-21",
+    "title": "Glossary",
+    "set": "classic",
+    "path": "templates/classic/glossary.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "internal-engineer",
+      "context-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Glossary",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-22",
+    "title": "Technical design document",
+    "set": "shared",
+    "path": "templates/technical-design-doc.md",
+    "doc_type": "decision",
+    "template_class": "classic",
+    "personas": [
+      "internal-engineer",
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "none",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "CLS-23",
+    "title": "Case study",
+    "set": "shared",
+    "path": "templates/case-study.md",
+    "doc_type": "concept",
+    "template_class": "classic",
+    "personas": [
+      "technical-writer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "none",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-01",
+    "title": "Decision model tutorial",
+    "set": "decision-model",
+    "path": "templates/decision-model/01-tutorial.md",
+    "doc_type": "tutorial",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Tutorial",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-02",
+    "title": "Decision model quick start",
+    "set": "decision-model",
+    "path": "templates/decision-model/02-quickstart.md",
+    "doc_type": "tutorial",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Quick start",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-03",
+    "title": "Decision model concepts overview",
+    "set": "decision-model",
+    "path": "templates/decision-model/03-concepts-overview.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Concept page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-04",
+    "title": "Decision model concepts in depth",
+    "set": "decision-model",
+    "path": "templates/decision-model/04-concepts-in-depth.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Concept page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-05",
+    "title": "Overview",
+    "set": "decision-model",
+    "path": "templates/decision-model/05-overview.md",
+    "doc_type": "overview",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Product overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-06",
+    "title": "State and inputs",
+    "set": "decision-model",
+    "path": "templates/decision-model/06-state-and-inputs.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Data model",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-07",
+    "title": "Questions and criteria",
+    "set": "decision-model",
+    "path": "templates/decision-model/07-questions-and-criteria.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "API reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-08",
+    "title": "Confidence and actions",
+    "set": "decision-model",
+    "path": "templates/decision-model/08-confidence-and-actions.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "none",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-09",
+    "title": "Reference",
+    "set": "decision-model",
+    "path": "templates/decision-model/09-reference.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "API reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-10",
+    "title": "Security and data",
+    "set": "decision-model",
+    "path": "templates/decision-model/10-security-and-data.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Security and privacy page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-11",
+    "title": "Limitations",
+    "set": "decision-model",
+    "path": "templates/decision-model/11-limitations.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Known issues",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-12",
+    "title": "Troubleshooting",
+    "set": "decision-model",
+    "path": "templates/decision-model/12-troubleshooting.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Troubleshooting guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-13",
+    "title": "Evaluation",
+    "set": "decision-model",
+    "path": "templates/decision-model/13-evaluation.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Test plan",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DEC-14",
+    "title": "Change history",
+    "set": "decision-model",
+    "path": "templates/decision-model/14-change-history.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Release notes",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DGM-01",
+    "title": "RAG diagrams",
+    "set": "diagrams",
+    "path": "templates/diagrams/rag.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture diagram",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DGM-02",
+    "title": "Decision model diagrams",
+    "set": "diagrams",
+    "path": "templates/diagrams/decision-model.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture diagram",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DGM-03",
+    "title": "Hybrid diagrams",
+    "set": "diagrams",
+    "path": "templates/diagrams/hybrid.md",
+    "doc_type": "reference",
+    "template_class": "upgraded-classic",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture diagram",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DVA-01",
+    "title": "Verified sample README",
+    "set": "developer-advocates",
+    "path": "developer-advocates/templates/verified-sample-readme.md",
+    "doc_type": "tutorial",
+    "template_class": "new",
+    "personas": [
+      "developer-advocate",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Sample README",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "DVA-02",
+    "title": "Demo script",
+    "set": "developer-advocates",
+    "path": "developer-advocates/templates/demo-script.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Talk outline",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-01",
+    "title": "Field playbook",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/field-playbook.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Implementation guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-02",
+    "title": "Reference architecture",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/reference-architecture.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-03",
+    "title": "Sample and tutorial",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/sample-and-tutorial.md",
+    "doc_type": "tutorial",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "developer-advocate",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Tutorial",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-04",
+    "title": "Handover pack",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/handover-pack.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Handover document",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-05",
+    "title": "Limitations note",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/limitations-note.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Known issues",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-06",
+    "title": "Discovery brief",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/discovery-brief.md",
+    "doc_type": "overview",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Requirements document",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-07",
+    "title": "Success criteria",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/success-criteria.md",
+    "doc_type": "decision",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Statement of work acceptance criteria",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-08",
+    "title": "Integration spec",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/integration-spec.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Interface control document",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-09",
+    "title": "Customer data map",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/customer-data-map.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Data flow diagram",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-10",
+    "title": "Deployment checklist",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/deployment-checklist.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Go-live checklist",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "FDE-11",
+    "title": "Field feedback report",
+    "set": "forward-deployed-engineers",
+    "path": "forward-deployed-engineers/templates/field-feedback-report.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "forward-deployed-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Feature request",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-01",
+    "title": "AGENTS.md",
+    "set": "harness",
+    "path": "templates/harness/agents-md.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "internal-engineer",
+      "technical-writer"
+    ],
+    "harness_part": "guides",
+    "replaces_or_extends": "CONTRIBUTING.md",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-02",
+    "title": "Agent skill",
+    "set": "harness",
+    "path": "templates/harness/agent-skill.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "ai-engineer",
+      "developer-advocate"
+    ],
+    "harness_part": "guides",
+    "replaces_or_extends": "Standard operating procedure",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-03",
+    "title": "Context source map",
+    "set": "harness",
+    "path": "templates/harness/context-source-map.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer"
+    ],
+    "harness_part": "context",
+    "replaces_or_extends": "Content inventory",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-04",
+    "title": "Retrieval rules spec",
+    "set": "harness",
+    "path": "templates/harness/retrieval-rules-spec.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "ai-engineer"
+    ],
+    "harness_part": "context",
+    "replaces_or_extends": "none",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-05",
+    "title": "Memory spec",
+    "set": "harness",
+    "path": "templates/harness/memory-spec.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "ai-engineer"
+    ],
+    "harness_part": "context",
+    "replaces_or_extends": "none",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-06",
+    "title": "Context delivery plan",
+    "set": "harness",
+    "path": "templates/harness/context-delivery-plan.md",
+    "doc_type": "decision",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "developer-advocate"
+    ],
+    "harness_part": "context",
+    "replaces_or_extends": "Content strategy",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-07",
+    "title": "llms.txt",
+    "set": "harness",
+    "path": "templates/harness/llms-txt.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer"
+    ],
+    "harness_part": "context",
+    "replaces_or_extends": "Sitemap",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-08",
+    "title": "Tool catalog",
+    "set": "harness",
+    "path": "templates/harness/tool-catalog.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "ai-engineer",
+      "internal-engineer"
+    ],
+    "harness_part": "tool-orchestration",
+    "replaces_or_extends": "Service catalog",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-09",
+    "title": "Definition of done",
+    "set": "harness",
+    "path": "templates/harness/definition-of-done.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "internal-engineer",
+      "ai-engineer"
+    ],
+    "harness_part": "tool-orchestration",
+    "replaces_or_extends": "Definition of done",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-10",
+    "title": "Guardrails and approvals",
+    "set": "harness",
+    "path": "templates/harness/guardrails-and-approvals.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "ai-engineer",
+      "internal-engineer"
+    ],
+    "harness_part": "guardrails",
+    "replaces_or_extends": "Access control policy",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-11",
+    "title": "Session handoff note",
+    "set": "harness",
+    "path": "templates/harness/session-handoff-note.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "internal-engineer",
+      "ai-engineer"
+    ],
+    "harness_part": "guardrails",
+    "replaces_or_extends": "Shift handover note",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-12",
+    "title": "Context changelog",
+    "set": "harness",
+    "path": "templates/harness/context-changelog.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": "context",
+    "replaces_or_extends": "Changelog",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-01",
+    "title": "Hybrid tutorial",
+    "set": "hybrid",
+    "path": "templates/hybrid/01-tutorial.md",
+    "doc_type": "tutorial",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Tutorial",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-02",
+    "title": "Hybrid concepts",
+    "set": "hybrid",
+    "path": "templates/hybrid/02-concepts.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Concept page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-03",
+    "title": "System overview",
+    "set": "hybrid",
+    "path": "templates/hybrid/03-system-overview.md",
+    "doc_type": "overview",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-04",
+    "title": "Handoffs",
+    "set": "hybrid",
+    "path": "templates/hybrid/04-handoffs.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Interface specification",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-05",
+    "title": "Failure modes",
+    "set": "hybrid",
+    "path": "templates/hybrid/05-failure-modes.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Failure mode analysis",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-06",
+    "title": "Trace a result",
+    "set": "hybrid",
+    "path": "templates/hybrid/06-trace-a-result.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Troubleshooting guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-07",
+    "title": "Security and data",
+    "set": "hybrid",
+    "path": "templates/hybrid/07-security-and-data.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Security and privacy page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HYB-08",
+    "title": "Evaluation",
+    "set": "hybrid",
+    "path": "templates/hybrid/08-evaluation.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Test plan",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-01",
+    "title": "MCP server overview",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/01-overview.md",
+    "doc_type": "overview",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Product overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-02",
+    "title": "Connect a client",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/02-connect-a-client.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Installation guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-03",
+    "title": "Authentication and permissions",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/03-authentication-and-permissions.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Authentication guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-04",
+    "title": "Tools reference",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/04-tools-reference.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "API reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-05",
+    "title": "Resources reference",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/05-resources-reference.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Content inventory",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-06",
+    "title": "Prompts reference",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/06-prompts-reference.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "none",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-07",
+    "title": "Server instructions",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/07-server-instructions.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "none",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-08",
+    "title": "Security and data",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/08-security-and-data.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "internal-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Security and privacy page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-09",
+    "title": "Limitations",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/09-limitations.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Known issues",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-10",
+    "title": "Troubleshooting",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/10-troubleshooting.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Troubleshooting guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-11",
+    "title": "Evaluation",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/11-evaluation.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Test plan",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "MCP-12",
+    "title": "Change history",
+    "set": "mcp-server",
+    "path": "templates/mcp-server/12-change-history.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "technical-writer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Release notes",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-01",
+    "title": "RAG tutorial",
+    "set": "rag",
+    "path": "templates/rag/01-tutorial.md",
+    "doc_type": "tutorial",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Tutorial",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-02",
+    "title": "RAG quick start",
+    "set": "rag",
+    "path": "templates/rag/02-quickstart.md",
+    "doc_type": "tutorial",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer",
+      "developer-advocate"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Quick start",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-03",
+    "title": "RAG concepts overview",
+    "set": "rag",
+    "path": "templates/rag/03-concepts-overview.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Concept page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-04",
+    "title": "RAG concepts in depth",
+    "set": "rag",
+    "path": "templates/rag/04-concepts-in-depth.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Concept page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-05",
+    "title": "Overview",
+    "set": "rag",
+    "path": "templates/rag/05-overview.md",
+    "doc_type": "overview",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Product overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-06",
+    "title": "Manage content",
+    "set": "rag",
+    "path": "templates/rag/06-manage-content.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Admin guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-07",
+    "title": "How answers are generated",
+    "set": "rag",
+    "path": "templates/rag/07-how-answers-are-generated.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Architecture overview",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-08",
+    "title": "Reference",
+    "set": "rag",
+    "path": "templates/rag/08-reference.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "API reference",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-09",
+    "title": "Security and data",
+    "set": "rag",
+    "path": "templates/rag/09-security-and-data.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Security and privacy page",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-10",
+    "title": "Limitations",
+    "set": "rag",
+    "path": "templates/rag/10-limitations.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Known issues",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-11",
+    "title": "Troubleshooting",
+    "set": "rag",
+    "path": "templates/rag/11-troubleshooting.md",
+    "doc_type": "how-to",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Troubleshooting guide",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-12",
+    "title": "Evaluation",
+    "set": "rag",
+    "path": "templates/rag/12-evaluation.md",
+    "doc_type": "concept",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Test plan",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "RAG-13",
+    "title": "Change history",
+    "set": "rag",
+    "path": "templates/rag/13-change-history.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "ai-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Release notes",
+    "version": "1.0.0"
+  }
+]

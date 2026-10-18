@@ -1,0 +1,49 @@
+name: Template request
+description: Ask for a documentation template that does not exist yet.
+labels: [template-request]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A template earns its place by supporting a decision someone makes from the page. Describe the work it comes from, not only its title.
+  - type: dropdown
+    id: persona
+    attributes:
+      label: Persona
+      description: Who writes or uses this document most often?
+      options:
+        - Technical writer
+        - Developer advocate
+        - Internal engineer
+        - AI engineer
+        - Forward deployed engineer
+        - Context engineer
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: doc-type
+    attributes:
+      label: Document type
+      description: For example, a reference page, a how-to, a runbook, a spec, or a decision record.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: The decision this document supports
+      description: What does someone decide or do because this page exists?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: An example from real work
+      description: Describe a time this document was needed. Remove employer names, customer data, secrets, and hostnames.
+    validations:
+      required: true
+  - type: input
+    id: closest
+    attributes:
+      label: Closest existing template
+      description: The template in this repository that comes nearest, if any, and what it misses.

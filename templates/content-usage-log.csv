@@ -1,0 +1,4 @@
+date,question,source_of_question,pages_cited,answered,gap_topic,action,owner
+2026-10-01,How do I send a recurring invoice?,mcp server log,/help/recurring-invoices,answered,,,
+2026-10-01,Can I invoice in two currencies?,mcp server log,/help/currencies,not answered,multi-currency invoicing,Write a multi-currency guide,Support content team
+2026-10-02,Why is my reminder not sending?,docs search,/help/reminders-legacy,partly answered,new reminders screen,Update reminders article for the new screen,Support content team

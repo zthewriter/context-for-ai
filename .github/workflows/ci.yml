@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --exclude-path LICENSE-CONTENT --accept '200,403,429' './**/*.md'
+          fail: true
+
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v24
+        with:
+          globs: |
+            **/*.md
+            !LICENSE*
+
+  templates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Prove the linter catches each problem
+        run: node --test scripts/lint-templates.test.mjs
+      - name: Check every template against templates/anatomy.md
+        run: node scripts/lint-templates.mjs
+      - name: Prove the catalog builder renders the table and links
+        run: node --test scripts/build-catalog.test.mjs
+      - name: Check the committed catalog matches a fresh build
+        run: node scripts/build-catalog.mjs --check
+
+  diagrams:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Render every Mermaid diagram
+        run: |
+          echo '{"args":["--no-sandbox"]}' > /tmp/puppeteer.json
+          status=0
+          for f in $(grep -rl '```mermaid' --include='*.md' .); do
+            npx -y @mermaid-js/mermaid-cli@11 -p /tmp/puppeteer.json -i "$f" -o "/tmp/$(echo "$f" | tr '/' '_')" -q || { echo "Diagram failed: $f"; status=1; }
+          done
+          exit $status
+
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Scan history for committed secrets
+        run: docker run --rm -v "$PWD:/repo" ghcr.io/gitleaks/gitleaks:latest git /repo --verbose
