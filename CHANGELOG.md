@@ -6,6 +6,17 @@ All notable changes to Context for AI are recorded in this file. The format foll
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-22
+
+### Added
+
+- HRN-13, a [context observability plan](templates/harness/context-observability-plan.md)
+  template in the harness set: which signals show what an agent retrieves and
+  cites, how each is measured, and what happens when one moves.
+- An [AEO set](templates/aeo/README.md) for answer engine optimization, with AEO-01,
+  an AEO strategy, and AEO-02, a tracked prompt set.
+- Kestrel examples and template notes for all three templates.
+
 ## [1.0.0] - 2026-10-18
 
 The first tagged release.
@@ -70,5 +81,6 @@ The first tagged release.
 - Growth figures on the role pages cite their original publishers, LinkedIn and
   Indeed Hiring Lab, with the window and population each figure describes.
 
-[Unreleased]: https://github.com/zthewriter/context-for-ai/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/zthewriter/context-for-ai/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/zthewriter/context-for-ai/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/zthewriter/context-for-ai/releases/tag/v1.0.0

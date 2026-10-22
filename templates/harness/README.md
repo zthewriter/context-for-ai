@@ -32,6 +32,7 @@ write them. Required pages are the minimum for an agent other people rely on.
 | HRN-10 | [Guardrails and approvals](guardrails-and-approvals.md) | Guardrails | Required |
 | HRN-11 | [Session handoff note](session-handoff-note.md) | Guardrails | Optional: for work that spans sessions |
 | HRN-12 | [Context changelog](context-changelog.md) | Context | Required |
+| HRN-13 | [Context observability plan](context-observability-plan.md) | Context | Required |
 
 ## How the templates fit together
 
@@ -41,6 +42,8 @@ The templates refer to each other, so keep them consistent:
 - Every retrieval rule names a source from the context source map.
 - The definition of done is linked from AGENTS.md.
 - Every change to sources, rules, or instructions gets a context changelog entry.
+- Every context changelog entry's measured effect comes from a signal in the context
+  observability plan.
 
 ## Clone this set
 

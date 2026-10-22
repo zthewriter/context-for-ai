@@ -1,5 +1,37 @@
 [
   {
+    "template_id": "AEO-01",
+    "title": "AEO strategy",
+    "set": "aeo",
+    "path": "templates/aeo/aeo-strategy.md",
+    "doc_type": "decision",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "context-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "SEO strategy",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "AEO-02",
+    "title": "Tracked prompt set",
+    "set": "aeo",
+    "path": "templates/aeo/tracked-prompt-set.md",
+    "doc_type": "reference",
+    "template_class": "new",
+    "personas": [
+      "technical-writer",
+      "developer-advocate",
+      "context-engineer"
+    ],
+    "harness_part": null,
+    "replaces_or_extends": "Keyword tracking list",
+    "version": "1.0.0"
+  },
+  {
     "template_id": "AIE-01",
     "title": "Evaluation spec",
     "set": "ai-engineers",
@@ -1198,6 +1230,22 @@
     ],
     "harness_part": "context",
     "replaces_or_extends": "Changelog",
+    "version": "1.0.0"
+  },
+  {
+    "template_id": "HRN-13",
+    "title": "Context observability plan",
+    "set": "harness",
+    "path": "templates/harness/context-observability-plan.md",
+    "doc_type": "operational",
+    "template_class": "new",
+    "personas": [
+      "context-engineer",
+      "ai-engineer",
+      "technical-writer"
+    ],
+    "harness_part": "context",
+    "replaces_or_extends": "Monitoring plan",
     "version": "1.0.0"
   },
   {
