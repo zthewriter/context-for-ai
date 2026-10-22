@@ -130,6 +130,7 @@ The following table lists the ID prefix for each set:
 | `HYB` | Hybrid systems |
 | `MCP` | MCP server documentation |
 | `HRN` | Harness engineering |
+| `AEO` | Answer engine optimization (AEO) |
 | `AIE` | AI engineers |
 | `FDE` | Forward deployed engineers |
 | `DVA` | Developer advocates |

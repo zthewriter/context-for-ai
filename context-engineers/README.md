@@ -18,6 +18,9 @@ The following templates live in other folders and are linked here, not copied:
 | HRN-06 | [Context delivery plan](../templates/harness/context-delivery-plan.md) | The channel for each audience, and how usage is observed |
 | HRN-07 | [llms.txt](../templates/harness/llms-txt.md) | An `llms.txt` file and its listing policy |
 | HRN-12 | [Context changelog](../templates/harness/context-changelog.md) | Context changes and their measured effect |
+| HRN-13 | [Context observability plan](../templates/harness/context-observability-plan.md) | Which signals show what the agent retrieves and cites, and what to do when they move |
+| AEO-01 | [AEO strategy](../templates/aeo/aeo-strategy.md) | Which questions your content should answer in AI answer engines |
+| AEO-02 | [Tracked prompt set](../templates/aeo/tracked-prompt-set.md) | The prompts you run on a schedule and what each engine cited |
 | MCP-04 | [Tools reference](../templates/mcp-server/04-tools-reference.md) | Tool descriptions agents choose from |
 | MCP-07 | [Server instructions](../templates/mcp-server/07-server-instructions.md) | The instructions an MCP server sends, versioned |
 | MCP-11 | [Evaluation](../templates/mcp-server/11-evaluation.md) | Tool choice and answers on a fixed question set |

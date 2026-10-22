@@ -4,8 +4,8 @@ title: "Context for AI"
 abstract: "How AI consumes, uses, and makes sense of your content, plus documentation templates and checklists for writing docs that people and AI agents can use."
 authors:
   - name: "Zair Rogelio"
-version: "1.0.0"
-date-released: "2026-10-18"
+version: "1.1.0"
+date-released: "2026-10-22"
 repository-code: "https://github.com/zthewriter/context-for-ai"
 url: "https://github.com/zthewriter/context-for-ai"
 license:

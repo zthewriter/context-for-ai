@@ -9,7 +9,7 @@ import { findTemplates, parseFrontMatter, PERSONAS } from './lint-templates.mjs'
 
 const SET_NAMES = {
   classic: 'Classic', rag: 'RAG', 'decision-model': 'Decision model', hybrid: 'Hybrid',
-  'mcp-server': 'MCP server', harness: 'Harness', 'audience-guides': 'Audience guides',
+  'mcp-server': 'MCP server', harness: 'Harness', aeo: 'AEO', 'audience-guides': 'Audience guides',
   diagrams: 'Diagrams', shared: 'Shared', 'ai-engineers': 'AI engineers',
   'forward-deployed-engineers': 'Forward deployed engineers', 'developer-advocates': 'Developer advocates',
 };

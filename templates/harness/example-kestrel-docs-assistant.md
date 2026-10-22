@@ -185,3 +185,20 @@ The following page records context changes and their effect:
 - **Effect:** the error questions in the evaluation set cited the API reference 9 of
   10 times, up from 4 of 10.
 ```
+
+## Context observability plan (HRN-13)
+
+The following page records the signals that produced the measured effect in the
+context changelog:
+
+```markdown
+| Signal | Captured in | What it tells you | Retention | Owner |
+|---|---|---|---|---|
+| Retrieved sources per question | MCP server tool call log | Which of the guides, API reference, and status page `search_docs` returned | 90 days | Docs team |
+| Cited sources per answer | Assistant response log | Which retrieved sources the answer linked | 90 days | Docs team |
+| Questions with no good match | Weak-match flag in the tool call log | Topics the docs don't cover | 90 days | Docs team |
+
+| Metric | How it is measured | Window | Threshold | Action when crossed |
+|---|---|---|---|---|
+| Error questions citing the API reference | Share of evaluation questions tagged "error" whose answer links the API reference | Each evaluation run | Below 8 of 10 | Docs team checks the rule "Errors prefer the API reference" |
+```
